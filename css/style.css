@@ -182,7 +182,7 @@ i{
 }
 /* fourth section*/
 .fourth .experience{
-    background-image: url(/images/about-image.png);
+    background-image: url(./images/about-image.png);
     background-size: cover;
     height: 650px;
     border-radius: 20px;
@@ -220,7 +220,7 @@ i{
     position: relative;
 }
 .fifth .background-blue::after{
-    content: url(/images/Ribbon.png);
+    content: url(./images/Ribbon.png);
     position: absolute;
     right: -16px;
     top: 34px;
@@ -244,7 +244,7 @@ i{
   border: none;
 }
 .teamworking{
-    background-image: url(/images/team.png);
+    background-image: url(.images/team.png);
     background-size: cover;
     width: 400px;
     height: 350px; 
@@ -264,7 +264,7 @@ i{
     align-items: unset;
 }
 .coffee{
-    background-image: url(/images/experience-image.png);
+    background-image: url(./images/experience-image.png);
     background-size: cover;
     width: 50vw;
 }
@@ -404,7 +404,7 @@ input{
     border-radius: 20px;
  }
  .homeworking{
-    background-image: url(/images/arc-1.png);
+    background-image: url(./images/arc-1.png);
  }
  .homeworking::after{
     content: '';
@@ -419,7 +419,7 @@ input{
 }
  
  .talking{
-    background-image: url(/images/arc-2.png);
+    background-image: url(./images/arc-2.png);
  }
 .cube{
     width: 100px;
@@ -434,7 +434,7 @@ input{
     left: -50px;
 }
  .smiling{
-    background-image: url(/images/arc-3.png);
+    background-image: url(./images/arc-3.png);
  }
 
 .v1{
@@ -442,7 +442,7 @@ input{
     right: -50px;
 } 
 .black{
-    background-image: url(/images/arc-4.png);
+    background-image: url(./images/arc-4.png);
  }
 
 .v2{
@@ -450,7 +450,7 @@ input{
     left: -50px;
 }
  .tower{
-    background-image: url(/images/arc-5.png);
+    background-image: url(./images/arc-5.png);
  }
 
 .v3 {
@@ -458,7 +458,7 @@ input{
     right: -50px;
 }
  .chatting{
-    background-image: url(/images/arc-6.png);
+    background-image: url(./images/arc-6.png);
  }
 .v4{
     top: 342px;

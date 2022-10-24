@@ -404,7 +404,7 @@ input{
     border-radius: 20px;
  }
  .homeworking{
-    background-image: url(./images/arc-1.png);
+    background-image: url(../images/arc-1.png);
  }
  .homeworking::after{
     content: '';
@@ -419,7 +419,7 @@ input{
 }
  
  .talking{
-    background-image: url(./images/arc-2.png);
+    background-image: url(../images/arc-2.png);
  }
 .cube{
     width: 100px;
@@ -434,7 +434,7 @@ input{
     left: -50px;
 }
  .smiling{
-    background-image: url(./images/arc-3.png);
+    background-image: url(../images/arc-3.png);
  }
 
 .v1{
@@ -442,7 +442,7 @@ input{
     right: -50px;
 } 
 .black{
-    background-image: url(./images/arc-4.png);
+    background-image: url(../images/arc-4.png);
  }
 
 .v2{
@@ -450,7 +450,7 @@ input{
     left: -50px;
 }
  .tower{
-    background-image: url(./images/arc-5.png);
+    background-image: url(../images/arc-5.png);
  }
 
 .v3 {
@@ -458,7 +458,7 @@ input{
     right: -50px;
 }
  .chatting{
-    background-image: url(./images/arc-6.png);
+    background-image: url(../images/arc-6.png);
  }
 .v4{
     top: 342px;
@@ -468,7 +468,7 @@ input{
  /* Careers */
 
  .tear{
-    background-image: url(/images/arc-4.png);
+    background-image: url(../images/arc-4.png);
     height: 650px;
  }
  .tear::after{

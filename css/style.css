@@ -102,12 +102,12 @@ i{
     position: relative;
 }
 /* header */
-#top{
+/* #top{
     position: fixed;
     z-index: 1;
     width: 100%;
     background-color: white;
-}
+} */
 .fin{
     filter: invert(14%) sepia(27%) saturate(3445%) hue-rotate(181deg) brightness(100%) contrast(96%);
 }

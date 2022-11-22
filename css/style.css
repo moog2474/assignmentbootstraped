@@ -145,14 +145,10 @@ i {
 .nav-item a {
     color: #0D1317;
 }
-
-.navbar-nav li:nth-child(6) a {
-    color: orange;
-}
-
-.navbar-nav li:nth-child(6) {
+.navbar-nav .nav-six {
     background-color: rgba(245, 138, 7, 0.1);
     padding: 10px;
+    color: orange;
     border-radius: 30px;
     text-align: center;
 }
@@ -178,13 +174,13 @@ i {
     padding: 30px 0;
 }
 
-.man {
+/* .man {
     display: flex;
-}
+} */
 
-.man img {
+/* .man img {
     align-items: flex-end;
-}
+} */
 
 .buttons a {
     border-radius: 60px;
@@ -249,7 +245,7 @@ i {
     padding: 20px 0;
 } */
 
-. b {
+.b {
     color: #F58A07;
     font-size: 36px;
 }
@@ -492,6 +488,7 @@ input {
 
 .homeworking {
     background-image: url(/images/arc-1.png);
+    position: relative;
 }
 
 .homeworking::after {
@@ -501,6 +498,7 @@ input {
     background-color: #F58A07;
     mix-blend-mode: multiply;
     position: absolute;
+    left: 0;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     overflow: hidden;
@@ -508,6 +506,7 @@ input {
 
 .talking {
     background-image: url(/images/arc-2.png);
+    position: relative;
 }
 
 .cube {
@@ -523,6 +522,9 @@ input {
     top: 128px;
     left: -50px;
 }
+.two li, .four li, .six li{
+    list-style: disc;
+}
 
 .smiling {
     background-image: url(/images/arc-3.png);
@@ -530,7 +532,7 @@ input {
 
 .v1 {
     top: 272px;
-    right: -50px;
+    right: -37px;
 }
 
 .black {
@@ -539,7 +541,7 @@ input {
 
 .v2 {
     top: 217px;
-    left: -50px;
+    left: -36px;
 }
 
 .tower {
@@ -548,7 +550,7 @@ input {
 
 .v3 {
     top: 272px;
-    right: -50px;
+    right: -37px;
 }
 
 .chatting {
@@ -557,7 +559,7 @@ input {
 
 .v4 {
     top: 342px;
-    left: -50px;
+    left: -40px;
 }
 
 /* Careers */
@@ -566,6 +568,9 @@ input {
     background-image: url(/images/arc-4.png);
     height: 650px;
     position: relative;
+}
+.p-4{
+    background-color: #DCEAF5;
 }
 
 .tear::after {
@@ -590,10 +595,10 @@ input {
     margin-bottom: 20px;
 }
 
-.pop {
+/* .pop {
     justify-content: flex-start;
     gap: 20px;
-}
+} */
 
 /* bloginner */
 .mid {
@@ -607,19 +612,22 @@ input {
     align-items: baseline;
 }
 
-.item-1 {
+/* .item-1 {
     width: 300px;
-}
+} */
 
-.item-1 h4 {
+/* .item-1 h4 {
     margin: 0;
     align-items: flex-start;
 }
 
 .item-2 {
     width: 800px;
+} */
+.homer .hov h4:hover{
+    color: orange;
+    transition: 0.5s;
 }
-
 .inp input {
     width: 100%;
     background: #D2DAED2B;
@@ -656,9 +664,10 @@ input {
 
 .op {
     padding-bottom: 160px;
+    border-radius: 30px;
 }
 
 .map {
     border-radius: 20px;
-    height: 366px;
+    width: 100%;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
+
 <body>
     <header id="top">
-        <div class="container no-padding">
-            <nav class="menu col">
+        <!-- <nav class="menu col">
                 <div class="fin"> <img src="/images/finsweet.png" width="122px" alt="logo"></div>
                 <ul class="nav col">                    
                     <li><a href="/index.html">Home</a></li>
@@ -24,166 +29,197 @@
                     <li><a href="/contact.html">Contact Us</a></li>
                     <li><a class="nav-six" href="#">Call to Action</a></li>
                 </ul>
-            </nav>
-        </div>
+            </nav> -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <a class="navbar-brand col-6" href="#">finsweet</a>
+                <ul class="col-6 navbar-nav me-auto mb-2 mb-lg-0 align-items-center justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/careers.html">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Call to Action</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
     </header>
 
-<section class="neg">
-    <div class="container">
-        <div class="col">
-            <div class="col-2">
-                <h1>We hired people who are very passionate about what they do</h1>
-                <p>Through True Rich Attended does no end it his mother since real jad half every him case in packages enquire we up ecstatic unsatiable saw.</p>
-                <div class="buttons">
-                    <a class="bo" href="#">View Positions</a>
-                </div>
-            </div>
-            <div class="tear pics col-2"></div>
-        </div>
-    </div>
-
-</section>
-
-<section class="hoyr">
-    <div class="container">
-        <h2>See our open positions</h2>
-        <div class="col nospace">
-            <div class="col-3 background-blue">
-                <div class="pad">
-                    <h4>Full Stack Developer</h4>
-                    <p>Bengaluru - Full time</p>
-                <a class="orange" href="#">Apply now</a>
-                </div>
-            </div>
-            <div class="col-3 background-blue">
-                <div class="pad">
-                    <h4>Testing Engineer</h4>
-                        <p>Bengaluru - Full time</p>
-                    <a class="orange" href="/careers2.html">Apply now</a>
-                </div>   
-            </div>
-            <div class="col-3 background-blue">
-                <div class="pad">
-                    <h4>Hr Manager+</h4>
-                        <p>Bengaluru - Full time</p>
-                    <a class="orange" href="#">Apply now</a>
-                </div>    
-            </div>
-            <div class="col-3 background-blue">
-                <div class="pad">
-                    <h4>Full Stack Developer</h4>
-                    <p>Bengaluru - Full time</p>
-                <a class="orange" href="#">Apply now</a>
-                </div>
-            </div>
-            <div class="col-3 background-blue mr20">
-                <div class="pad">
-                    <h4>Testing Engineer</h4>
-                        <p>Bengaluru - Full time</p>
-                    <a class="orange" href="/careers2.html">Apply now</a>
-                </div>
-                </div>    
-        </div>
-    </div>
-</section>
-
-    <section class="eigth">
-        <div class="background-blue">
-            <div class="container">
-                <h2>Latest Blog & News</h3>
-                <div class="latest-news col">
-                    <div class="col-3">
-                      <img class="borderless" src="/images/post1.png" alt="2ppl">
-                      <div class="pad">
-                       <div class="bot">
-                           <h4>Why you have to digitalize in 2021</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, est. Ipsa harum sit corrupti vitae?</p>         
-                        </div>
-                       <div class="div"> <a class="more" href="#">Learn More</a> </div> 
-                        </div>
+    <section class="neg">
+        <div class="container">
+            <div class="row mt-5 mb-5 justify-content-between">
+                <div class="col-5 align-self-center">
+                    <h1>We hired people who are very passionate about what they do</h1>
+                    <p>Through True Rich Attended does no end it his mother since real jad half every him case in
+                        packages enquire we up ecstatic unsatiable saw.</p>
+                    <div class="buttons">
+                        <a class="bo" href="#">View Positions</a>
                     </div>
-    
-                    <div class="col-3">
-                        <img class="borderless" src="/images/post-2.png" alt="teamworking">
-                        <div class="pad">
-                            <div class="bot">
-                            <h4>Our internal process and longterm vision</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, laborum quos. Ducimus, beatae!</p>
-                            </div>
-                           <div>  <a class="more" href="#">Learn More</a> </div>
-                        </div>
+                </div>
+                <div class="tear pics col-6"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="hoyr">
+        <div class="container mt-5 mb-5">
+            <h2>See our open positions</h2>
+            <div class="row gap-2 nospace">
+                <div class="col-3 background-blue">
+                    <div class="pad">
+                        <h4>Full Stack Developer</h4>
+                        <p>Bengaluru - Full time</p>
+                        <a class="orange" href="#">Apply now</a>
                     </div>
-    
-                    <div class="col-3">
-                        <img class="borderless" src="/images/post-3.png" alt="mother helping to kid">
-                        <div class="pad">
-                            <div class="bot">
-                                <h4>Helping the next generation of leaders</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsum blanditiis suscipit sapiente.</p>    
-                            </div>
-                           <div>  <a class="more" href="#">Learn More</a> </div>
-                        </div>
+                </div>
+                <div class="col-3 background-blue">
+                    <div class="pad">
+                        <h4>Testing Engineer</h4>
+                        <p>Bengaluru - Full time</p>
+                        <a class="orange" href="/careers2.html">Apply now</a>
+                    </div>
+                </div>
+                <div class="col-3 background-blue">
+                    <div class="pad">
+                        <h4>Hr Manager+</h4>
+                        <p>Bengaluru - Full time</p>
+                        <a class="orange" href="#">Apply now</a>
+                    </div>
+                </div>
+                <div class="col-3 background-blue">
+                    <div class="pad">
+                        <h4>Full Stack Developer</h4>
+                        <p>Bengaluru - Full time</p>
+                        <a class="orange" href="#">Apply now</a>
+                    </div>
+                </div>
+                <div class="col-3 background-blue mr20">
+                    <div class="pad">
+                        <h4>Testing Engineer</h4>
+                        <p>Bengaluru - Full time</p>
+                        <a class="orange" href="/careers2.html">Apply now</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="eigth">
+        <div class="background-blue pb-5 pt-5">
+            <div class="container">
+                <h2>Latest Blog & News</h3>
+                    <div class="latest-news row justify-content-between">
+                        <div class="col-3">
+                            <img class="borderless" src="/images/post1.png" width="100%" alt="2ppl">
+                            <div class="p-4">
+                                <h4>Why you have to digitalize in 2021</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, est. Ipsa
+                                    harum sit corrupti vitae?</p>
+                                <a class="more" href="#">Learn More</a>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <img class="borderless" src="/images/post-2.png" width="100%" alt="teamworking">
+                            <div class="p-4">
+                                <h4>Our internal process and longterm vision</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, laborum quos.
+                                    Ducimus, beatae!</p>
+                                <a class="more" href="#">Learn More</a>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <img class="borderless" src="/images/post-3.png" width="100%" alt="mother helping to kid">
+                            <div class="p-4">
+                                <h4>Helping the next generation of leaders</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsum
+                                    blanditiis suscipit sapiente.</p>
+                                <a class="more" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <div class="container">
+        <div class="container pt-5 pb-5">
             <div class="left yellow"></div>
-            <div class="col">
-                <div class="col-3">
-                    <h4>{finsweet</h4>
-                    <h3>Bespoke software solutions</h2>
-                    <div class="logos">
-                        <a href="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="Youtube"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="Twitter"><i class="fa-brands fa-twitter"></i></a>
-                    </div>
-                 
-    
-                </div>
-                <div class="about col-3">
-                    <div class="company col-2 row">
-                        <b>Company</b>
-                        <a href="#">About Us</a>
-                        <a href="#">Careers</a>
-                        <a href="#">Services</a>
-                        <a href="#">Blog</a>
-                    </div>
-        
-                    <div class="connect col-2 row">
-                        <b>Connect</b>
-                        <p>hi@finsweet.com</p>
-                        <p>+(123) 456-7890</p>
+            <div class="row">
+                <div class="col-4 lh-lg">
+                    <div class="row gap-4">
+                        <h4>{finsweet</h4>
+                        <h3>Bespoke software solutions</h2>
+                            <div class="logos">
+                                <a href="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="Youtube"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
                     </div>
                 </div>
-    
-                <div class="join col-3">
-                    <div class="row no">
-                        <b>Join Newsletter</b>
-                        <div class="mail"><input type="email" placeholder="Type email here"></div>
-                        <a class="bo" href="subscribe">Subscribe</a>
-                    </div>
+                <div class="about col-4">
+                    <div class="company col-6">
+                        <div class="row lh-lg">
+                            <b>Company</b>
+                            <a href="#">About Us</a>
+                            <a href="#">Careers</a>
+                            <a href="#">Services</a>
+                            <a href="#">Blog</a>
+                        </div>
                     </div>
 
+                    <div class="connect col-6 just">
+                        <div class="row  lh-lg">
+                            <b>Connect</b>
+                            <p>hi@finsweet.com</p>
+                            <p>+(123) 456-7890</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="join col-4">
+                    <div class="row gap-4">
+                        <b>Join Newsletter</b>
+                        <input class="w-75" type="email" placeholder="Type email here">
+                        <a class="bo w-50" href="#">Subscribe</a>
+                    </div>
+                </div>
+
             </div>
-            <div class="col tut">
-                <div class="col-2">
+            <div class="row mt-5 tut pt-5">
+                <div class="col-6">
                     <span>&#169; All rights reserved - Finsweet</p>
                 </div>
-                <div class="col-2">
-                        <ul class="privacy col">
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
-                        </ul>
+                <div class="col-6 justify-content-end">
+                    <ul class="row justify-content-end">
+                        <li class="col-4"><a href="#">Privacy Policy</a></li>
+                        <li class="col-4"><a href="#">Terms & Conditions</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="right yellow"></div>
         </div>
     </footer>
-</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
